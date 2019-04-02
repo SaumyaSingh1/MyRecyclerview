@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="wrap_content"
+android:orientation="vertical">
+
+    <TextView android:layout_width="match_parent" android:layout_height="46dp"
+              android:id="@+id/name"
+              android:layout_marginTop="20dp"
+              android:textSize="24dp"
+              android:textStyle="bold"
+              android:background="#7544"
+    />
+
+    <TextView android:layout_width="match_parent" android:layout_height="71dp"
+              android:id="@+id/desp"
+              android:background="#8378"
+              android:textSize="20dp"
+    />
+
+    <TextView android:layout_width="234dp" android:layout_height="41dp"
+              android:id="@+id/year"
+              android:background="#7327"
+              android:text="In Year:"
+              android:textSize="18dp"
+    />
+
+</LinearLayout>
